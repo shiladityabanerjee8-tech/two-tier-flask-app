@@ -20,7 +20,7 @@ pipeline {
 
         stage("Test") {
             steps {
-                echo "Running application test..."
+                echo "Running application test...!!"
                 sh "docker image inspect two-tier-flask-app"
             }
         }
